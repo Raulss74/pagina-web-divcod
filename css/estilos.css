@@ -1,0 +1,160 @@
+*{
+	box-sizing: border-box;	
+}
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+.lateral {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1em;
+	width: 370px;
+	background-color: #56B3AB;	
+}
+
+/* Perfil */
+
+.perfil__circulo {
+	width: 80px;
+	margin: 0;
+	overflow: hidden;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.perfil__foto{
+	width: 100%;
+}
+
+.perfil_rss{
+	color: #fff;
+	font-size: 20px;
+	width: 250px;
+	padding: 5px;
+}
+
+.perfil_rss, .perfil__circulo {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+/* Información */
+
+.informacion {
+	color: #0F6A62;
+	position: absolute;
+	bottom: 1em;
+}
+
+.informacion_titulo{
+	font-size: 18px;
+}
+
+.informacion_descripcion{
+	padding: 1em;	
+}
+
+/* Habilidades */
+.habilidades{
+	padding: 0;
+}
+
+.habilidad {
+	background-color: #0F6A62;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	padding: .5em;
+	text-transform: uppercase;
+}
+
+.habilidad_lateral{
+	
+}
+
+/* Sección Proyectos */
+
+.proyectos{
+	display: table;
+	margin-left: 350px;
+	padding: 1em;
+}
+
+.asesoria{
+	width: 50%;
+	display: table-cell;
+	padding: 1em;
+}
+
+.asesoria_imagen{
+	width: 100%;
+}
+
+.estrategia{
+	width: 50%;
+	display: table-cell;
+	padding: 1em;
+}
+
+.estrategia_imagen {
+	width: 100%;
+}
+
+.comunicacion{
+	width: 50%;
+	display: table-cell;
+	padding: 1em;
+}
+
+.comunicacion_imagen {
+	width: 100%;
+}
+
+.gobierno {
+	width: 50%;
+	display: table-cell;
+	padding: 1em;
+}
+
+.gobierno_imagen{
+	width: 100%;
+}
+
+h3{
+	color: #29597C;
+	font-size: 18px;
+}
+
+.habilidad--proyecto {
+	background-color: #0F6A62;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	padding: .5em;
+	text-transform: uppercase;
+}
+
+.asesoria_descripcion{
+	color: #797D7F;
+}
+
+.estrategia_descripcion{
+	color: #797D7F;
+}
+
+.comunicacion_descripcion{
+	color: #797D7F;
+}
+
+.gobierno_descripcion{
+	color: #797D7F;
+}
+
+
+
