@@ -14,7 +14,7 @@ html{
 	right: 0;
 	padding: 1em;
 	width: 370px;
-	background-color: #56B3AB;	
+	background-color: #0f8379;	
 }
 
 /* Perfil */
@@ -47,7 +47,7 @@ html{
 /* Información */
 
 .informacion {
-	color: #0F6A62;
+	color: #f3f8f8;
 	position: absolute;
 	bottom: 1em;
 }
